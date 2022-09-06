@@ -1,4 +1,4 @@
-# expo-cli-docker
+# Expo CLI Docker
 
 ## Como utilizar o Docker com o Node.js para criar um projeto com Expo-CLI
 
