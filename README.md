@@ -10,13 +10,15 @@ docker run -it --rm -v ~/qqq:/home/qqq  node:lts-alpine3.16 /bin/ash
 
 Obs.: Quando o comando abaixo é finalizado, o container é morto.
 
-### Instalar no vscode extensao Remote Containers (conecta o vscode no docker).
+### Instalar no vscode extensao [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) (conecta o vscode no docker).
+
+### Instalar o Expo-CLI.
 
 ```bash
 npm install --global expo-cli
 ```
 
-### Criar o projeto com o Expo-CLI
+### Criar o projeto com o Expo-CLI.
 
 ```bash
 npx create-expo-app my-app
