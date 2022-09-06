@@ -2,11 +2,13 @@
 
 ## Como utilizar o Docker com o Node.js para criar um projeto com Expo-CLI
 
-### Crie o container. O comando abaixo cria uma pasta na /home e a mapeia para dentro do container na mesma localização.
+### Crie o container.
 
 ```bash
 docker run -it --rm -v ~/qqq:/home/qqq  node:lts-alpine3.16 /bin/ash
 ```
+
+O comando abaixo cria uma pasta na /home/qqq e a mapeia para dentro do container na mesma localização (home/qqq).
 
 Obs.: Quando o comando abaixo é finalizado, o container é morto.
 
